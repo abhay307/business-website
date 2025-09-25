@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body {
+    width: 100%;
+    height: 100%;
+}
+/* hero section started */
+.blog-bg{
+    background-image: url('../assests/page-tittle-blog2.jpg');
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+    height: 400px;
+ 
+}
+.container{
+    width: 1280px;
+    padding: 20px 10px;
+    margin: 0 auto;
+}
+.blog-txt{
+    text-align: center;
+    padding-top: 90px;
+    line-height: 45px;
+    color: white;
+}
+.blog-txt div a{
+    color: white;
+    text-decoration: none;
+}
+.blog-txt div a:hover{
+    color: blue;
+}
+.blog-txt div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+.blog-txt h1{
+    font-size: 40px;
+}
+.blog-txt div a{
+    font-size: 20px;
+}
+.blog-txt div li{
+    font-size: 20px;
+
+}
+/* hero section ended */
+
+
+/* card section started */
+.card-parent{
+    margin-top: 50px;
+}
+.card{
+    border: 1px solid black;
+    width: 33.33%;
+}
+.card-img img{
+    width: 100%;
+
+}
+.card-txt{
+    padding-left: 10px;
+}
+.one{
+    display: flex;
+    gap: 20px;
+}
+.one span {
+    display: flex;
+    gap: 10px;
+    line-height: 30px;
+
+}
+.card-txt h3{
+    font-size: 25px;
+    line-height: 28px;
+
+}
+.card-txt p{
+    font-size: 17px;
+    line-height: 22px;
+}
