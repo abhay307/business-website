@@ -1,0 +1,17 @@
+@media only screen and (max-width:480px) and (min-width : 320px){
+    .blog-bg{
+        width: 100%;
+    }
+    .blog-tx{
+        text-align: center;
+    }
+    .card-main{
+        flex-direction: column;
+    }
+    .card{
+        width: 100%;
+    }
+}
+@media only screen and (max-width:767px) and (min-width : 481px){
+    
+}
