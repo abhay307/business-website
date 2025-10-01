@@ -31,13 +31,12 @@ body {
     color: #fff;
 }
 
-/* Container */
 .container {
     max-width: 1280px;
     margin: 0 auto;
 }
 
-/* Navbar (Fixed Transparent) */
+/* Header (Fixed Transparent) */
 .navbar {
     position: fixed;
     top: 0;
@@ -137,7 +136,10 @@ body {
     font-weight: bold;
 }
 
-/* Hero Section */
+/* header end */
+
+
+/* Hero Section start*/
 .hero {
     background: linear-gradient(to bottom, #370b6f, #00429b, #006dba, #0095ce, #2dbcdc);
     padding: 120px 0 60px;
@@ -199,7 +201,6 @@ body {
     height: auto;
 }
 
-/* Social Icons */
 .social-icons {
     margin-bottom: 20px;
 }
@@ -216,6 +217,7 @@ body {
     color: #a38bff;
 }
 
+/* hero section end */
 
 
 /* services section */
@@ -242,7 +244,6 @@ body {
     color: #333;
 }
 
-/* Service Cards Layout */
 .service-cards {
     display: flex;
     gap: 30px;
@@ -265,7 +266,6 @@ body {
     transform: translateY(-8px);
 }
 
-/* Icon */
 .service-card .icon {
     width: 20%;
 }
@@ -276,7 +276,6 @@ body {
     margin-bottom: 15px;
 }
 
-/* Title */
 .service-card h3 {
     font-size: 20px;
     font-weight: bold;
@@ -302,6 +301,8 @@ body {
 .service-card a:hover {
     color: #4834d4;
 }
+/* Service Section end */
+
 
 /* About Section start */
 
@@ -318,7 +319,6 @@ body {
     width: 50%;
 }
 
-/* Left Side */
 .about-text h5 {
     color: #f39c12;
     font-size: 14px;
@@ -372,7 +372,6 @@ body {
     border-radius: 5px;
 }
 
-/* Button */
 .btn {
     display: inline-block;
     padding: 12px 25px;
@@ -426,10 +425,11 @@ body {
     font-weight: bold;
     color: #f39c12;
 }
+
 /* about end */
 
 
-/* choose Section */
+/* choose Section start*/
 .choose-parent {
     background: #fff;
     color: #333;
@@ -475,6 +475,7 @@ body {
     margin-bottom: 25px;
     color: #555;
 }
+
 .qualities {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -713,6 +714,7 @@ body {
 
 /* number section ended */
 
+
 /* testimonial section started.. */
 .testimonial {
     padding: 60px 0px;
@@ -799,14 +801,12 @@ body {
 /* testimonial section ended.. */
 
 
-/* Blog Section */
+/* Blog Section start..*/
 .blog-section {
     background: #f9f9f9;
     padding: 60px 20px;
 }
 
-
-/* Section Headings */
 .blog-header {
     text-align: center;
     margin-bottom: 40px;
@@ -823,7 +823,6 @@ body {
     color: #666;
 }
 
-/* Blog Cards Grid */
 .blog-list {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
@@ -879,7 +878,7 @@ body {
 .blog-link:hover {
     text-decoration: underline;
 }
-
+/* blog section end... */
 
 
 
@@ -911,6 +910,7 @@ body {
 }
 
 /* Customers section ended... */
+
 
 /* call to action start */
 .cta {
@@ -975,6 +975,7 @@ body {
 }
 
 /* call to action end */
+
 
 /* contact section start */
 
@@ -1083,12 +1084,10 @@ textarea {
     background: #554fd8;
 }
 
-
-
 /* contact section end */
 
 
-/* Footer */
+/* Footer start*/
 .footer {
     background: #042c4c;
     padding: 40px 0px;
@@ -1101,7 +1100,7 @@ textarea {
     background-color: rgba(255, 255, 255, 0.505);
 }
 
-/* Newsletter */
+
 .newsletter {
     margin-bottom: 40px;
     display: flex;
@@ -1152,7 +1151,6 @@ textarea {
     background: #5a39d6;
 }
 
-/* Footer Content */
 .footer-content {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -1160,7 +1158,6 @@ textarea {
     margin: 40px 0px;
 }
 
-/* Footer Columns */
 .footer-col h4 {
     margin-bottom: 15px;
     color: #fff;
@@ -1191,10 +1188,10 @@ textarea {
     color: #7d5cff;
 }
 
-/* Contact Info */
 .contact-info {
     width: 100%;
 }
+
 .contact-info li {
     width: 100%;
     display: flex;
@@ -1208,7 +1205,6 @@ textarea {
     color: #7d5cff;
 }
 
-/* Social Links */
 .social-links a {
     display: inline-block;
     margin-right: 10px;
@@ -1229,3 +1225,5 @@ textarea {
     display: flex;
     justify-content: space-between;
 }
+
+/* footer end.. */

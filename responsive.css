@@ -1,13 +1,11 @@
 /* --Tablet Devices (768px – 1024px)- */
 @media (min-width: 768px) and (max-width: 1024px) {
 
-    /* Navbar */
     .navbar .container {
         flex-direction: column;
         gap: 15px;
     }
 
-    /* Hero */
     .hero-flex {
         flex-direction: column;
         text-align: center;
@@ -21,7 +19,7 @@
         margin-top: 20px;
     }
 
-    /* Services */
+
     .service-cards {
         justify-content: center;
     }
@@ -30,7 +28,6 @@
         width: 45%;
     }
 
-    /* About */
     .about-content {
         flex-direction: column;
         text-align: center;
@@ -41,7 +38,6 @@
         width: 100%;
     }
 
-    /* Choose */
     .choose-content {
         flex-direction: column;
         text-align: center;
@@ -52,7 +48,6 @@
         margin-bottom: 20px;
     }
 
-    /* Portfolio */
     .portTyps {
         justify-content: center;
     }
@@ -65,12 +60,11 @@
         grid-template-columns: repeat(2, 1fr);
     }
 
-    /* Customers */
     .customer {
         width: 30%;
     }
 
-    /* Contact */
+
     .contact-content {
         flex-direction: column;
         gap: 40px;
@@ -109,7 +103,7 @@
 /* --Mobile Devices (<767px)-- */
 @media (max-width: 767px) {
 
-    /* Navbar */
+
     .navbar-2 {
         display: block !important;
     }
@@ -129,7 +123,6 @@
         gap: 10px;
     }
 
-    /* Hero */
     .hero {
         padding: 60px 15px;
     }
@@ -152,7 +145,6 @@
         gap: 10px;
     }
 
-    /* Services */
     .service-cards {
         flex-direction: column;
         align-items: center;
@@ -162,7 +154,7 @@
         width: 90%;
     }
 
-    /* About */
+
     .about-content {
         flex-direction: column;
         text-align: center;
@@ -174,15 +166,12 @@
         width: 100%;
     }
 
-    /* Choose */
     .choose-content {
         flex-direction: column;
         text-align: center;
         padding: 15px;
     }
 
-
-    /* Portfolio */
     .portfolio {
         padding: 15px;
     }
@@ -197,7 +186,6 @@
         width: 100%;
     }
 
-    /* Numbers */
     .number-parent {
         flex-direction: column;
         gap: 20px;
@@ -205,17 +193,15 @@
         padding: 40px 0;
     }
 
-    /* Customers */
     .customer {
         width: 45%;
     }
 
-    /* Blog */
+
     .blog-title {
         font-size: 1.5rem;
     }
 
-    /* CTA */
     .cta-overlay {
         padding: 15px;
     }
@@ -229,7 +215,6 @@
         gap: 10px;
     }
 
-    /* Contact */
     .contact {
         padding: 15px;
     }
@@ -247,7 +232,6 @@
         width: 100%;
     }
 
-    /* Footer */
     .newsletter {
         flex-direction: column;
         text-align: center;

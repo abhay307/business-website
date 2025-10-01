@@ -16,13 +16,12 @@ body {
     color: #fff;
 }
 
-/* Container */
 .container {
     max-width: 1280px;
     margin: 0 auto;
 }
 
-/* Navbar (Fixed Transparent) */
+/* Header (Fixed Transparent) */
 .navbar {
     position: fixed;
     top: 0;
@@ -169,7 +168,6 @@ body {
     width: 50%;
 }
 
-/* Left Side */
 .about-text h5 {
     color: #f39c12;
     font-size: 14px;
@@ -223,7 +221,6 @@ body {
     border-radius: 5px;
 }
 
-/* Button */
 .btn {
     display: inline-block;
     padding: 12px 25px;
@@ -438,7 +435,6 @@ body {
     background-color: rgba(255, 255, 255, 0.505);
 }
 
-/* Newsletter */
 .newsletter {
     margin-bottom: 40px;
     display: flex;
@@ -489,7 +485,6 @@ body {
     background: #5a39d6;
 }
 
-/* Footer Content */
 .footer-content {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -497,7 +492,6 @@ body {
     margin: 40px 0px;
 }
 
-/* Footer Columns */
 .footer-col h4 {
     margin-bottom: 15px;
     color: #fff;
@@ -528,7 +522,6 @@ body {
     color: #7d5cff;
 }
 
-/* Contact Info */
 .contact-info li {
     display: flex;
     align-items: center;
@@ -541,7 +534,6 @@ body {
     color: #7d5cff;
 }
 
-/* Social Links */
 .social-links a {
     display: inline-block;
     margin-right: 10px;
