@@ -1,10 +1,19 @@
 /* --Tablet Devices (768px – 1024px)- */
 @media (min-width: 768px) and (max-width: 1024px) {
-
     .navbar .container {
-        flex-direction: column;
+        /* flex-direction: column; */
+        padding: 0px 15px;
         gap: 15px;
     }
+    .logo img{
+        width: 80%;
+    }
+
+    .hero-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
 
     .hero-flex {
         flex-direction: column;
@@ -28,6 +37,9 @@
         width: 45%;
     }
 
+    .about{
+        padding: 0px 15px;
+    }
     .about-content {
         flex-direction: column;
         text-align: center;
@@ -38,6 +50,9 @@
         width: 100%;
     }
 
+    .choose-parent{
+        padding: 0px 15px;
+    }
     .choose-content {
         flex-direction: column;
         text-align: center;
@@ -65,6 +80,9 @@
     }
 
 
+    .contact{
+        padding: 0px 15px;
+    }
     .contact-content {
         flex-direction: column;
         gap: 40px;
@@ -80,11 +98,17 @@
         text-align: center;
     }
 
+    .num-overlay{
+        padding: 0px 15px;
+    }
 
     .qualities {
         grid-template-columns: 1fr 1fr;
     }
 
+    .footer{
+        padding: 50px 15px;
+    }
     .contact-content {
         flex-direction: column;
     }

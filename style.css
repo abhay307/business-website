@@ -683,7 +683,7 @@ body {
 
 /* number section stated */
 .number {
-    background: url("/business-website/img/banner-bg-3.jpg");
+    background: url("img/banner-bg-3.jpg");
     background-position: center;
     background-attachment: fixed;
 
@@ -914,7 +914,7 @@ body {
 
 /* call to action start */
 .cta {
-    background: url("../business-website/img/banner-bg.jpg");
+    background: url("img/banner-bg.jpg");
     background-position: center;
     background-size: cover;
     color: white;
@@ -982,7 +982,7 @@ body {
 .contact {
     color: #333;
     line-height: 1.6;
-    background: url("../business-website/img/map-image.png");
+    background: url("img/map-image.png");
     background-size: contain;
     background-repeat: no-repeat;
     background-position: right;
