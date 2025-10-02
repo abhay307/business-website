@@ -2,16 +2,7 @@
     font-family: merafont;
     src: url(./fa-solid-900.woff2);
 }
-
-@font-face {
-    font-family: chaman;
-    src: url(./HauntingEleanor-Regular.woff);
-}
-    
-@font-face {
-    font-family: nothingfont;
-    src: url(./Ndot-55.otf);
-} */
+*/
 
 * {
     padding: 0;
@@ -136,6 +127,7 @@ body {
     font-weight: bold;
 }
 
+
 /* header end */
 
 
@@ -182,23 +174,50 @@ body {
 
 .btn-service {
     background: #fff;
-    color: #2d0b82;
+    color: #3b82f6;
+}
+.btn-service:hover{
+color: #fff;
+  background-color: #3b82f6;
 }
 
 .btn-contact {
     background: #3b82f6;
     color: #fff;
 }
-
+.btn-contact:hover{
+background-color: #fff;
+  color: #3b82f6;
+}
 .hero-image {
-    flex: 1 1 400px;
+    width: 50%;
     display: flex;
     justify-content: center;
 }
 
 .hero-image img {
     max-width: 100%;
-    height: auto;
+}
+.hero-image img:hover{
+    animation: move .8s alternate-reverse;
+}
+@keyframes move {
+    0%{
+        transform: translate(0px);
+    }
+    25%{
+        transform: translateY(40px);
+    }
+    
+    50%{
+        transform: translate(-60px);
+    }
+    75%{
+        transform: translateY(20px);
+    }
+    100%{
+        transform: translate(0px);
+    }
 }
 
 .social-icons {
