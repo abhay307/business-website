@@ -176,19 +176,22 @@ body {
     background: #fff;
     color: #3b82f6;
 }
-.btn-service:hover{
-color: #fff;
-  background-color: #3b82f6;
+
+.btn-service:hover {
+    color: #fff;
+    background-color: #3b82f6;
 }
 
 .btn-contact {
     background: #3b82f6;
     color: #fff;
 }
-.btn-contact:hover{
-background-color: #fff;
-  color: #3b82f6;
+
+.btn-contact:hover {
+    background-color: #fff;
+    color: #3b82f6;
 }
+
 .hero-image {
     width: 50%;
     display: flex;
@@ -198,24 +201,29 @@ background-color: #fff;
 .hero-image img {
     max-width: 100%;
 }
-.hero-image img:hover{
+
+.hero-image img:hover {
     animation: move .8s alternate-reverse;
 }
+
 @keyframes move {
-    0%{
+    0% {
         transform: translate(0px);
     }
-    25%{
+
+    25% {
         transform: translateY(40px);
     }
-    
-    50%{
+
+    50% {
         transform: translate(-60px);
     }
-    75%{
+
+    75% {
         transform: translateY(20px);
     }
-    100%{
+
+    100% {
         transform: translate(0px);
     }
 }
@@ -320,6 +328,7 @@ background-color: #fff;
 .service-card a:hover {
     color: #4834d4;
 }
+
 /* Service Section end */
 
 
@@ -506,7 +515,7 @@ background-color: #fff;
     padding: 12px 15px;
     background: #fff;
     border: 1px solid #ddd;
-    border-left:2px solid #6a4dfd;
+    border-left: 2px solid #6a4dfd;
     border-radius: 8px;
     font-size: 15px;
     cursor: pointer;
@@ -897,6 +906,7 @@ background-color: #fff;
 .blog-link:hover {
     text-decoration: underline;
 }
+
 /* blog section end... */
 
 

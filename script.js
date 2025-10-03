@@ -1,3 +1,19 @@
+// hdr section start
+const hamburger = document.getElementById("hamburger");
+const close = document.querySelector(".close");
+const hdr2 = document.querySelector(".hdr-2-links");
+
+hamburger.addEventListener("click", (e) => {
+    hdr2.style.display = "flex"
+});
+close.addEventListener("click", (e) => {
+    hdr2.style.display = "none"
+});
+
+// hdr section end
+
+
+
 var tl = gsap.timeline();
 
 var portTypChild = document.querySelector(".portTypChild")
@@ -49,15 +65,5 @@ branding.addEventListener("click", (e) => {
 })
 
 
-const hamburger = document.getElementById("hamburger");
-const close = document.querySelector(".close");
-const hdr2 = document.querySelector(".hdr-2-links");
-
-hamburger.addEventListener("click", (e) => {
-    hdr2.style.display = "flex"
-});
-close.addEventListener("click", (e) => {
-    hdr2.style.display = "none"
-});
 
 
