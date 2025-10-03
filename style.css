@@ -506,6 +506,7 @@ background-color: #fff;
     padding: 12px 15px;
     background: #fff;
     border: 1px solid #ddd;
+    border-left:2px solid #6a4dfd;
     border-radius: 8px;
     font-size: 15px;
     cursor: pointer;
@@ -526,8 +527,7 @@ background-color: #fff;
     left: 0;
     right: 0;
     z-index: -1;
-
-    border-radius: 8px;
+    border-radius: 4px;
 }
 
 .qualities button:hover::after {
@@ -540,7 +540,7 @@ background-color: #fff;
 
 @keyframes choosebtn {
     0% {
-        width: 2%;
+        width: 0%;
         background-color: #6a4dfd;
     }
 

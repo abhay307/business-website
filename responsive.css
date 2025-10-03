@@ -164,6 +164,10 @@
         font-size: 14px;
     }
 
+    .hero-image{
+        width: 100%;
+    }
+
     .hero-buttons {
         flex-direction: column;
         gap: 10px;
@@ -295,6 +299,10 @@
 
     .qualities {
         grid-template-columns: 1fr;
+    }
+
+    .choose-image{
+        width: 100%;
     }
 
     .choose-text h1 {
