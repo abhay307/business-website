@@ -1,0 +1,305 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+.contact-bg {
+  background-image: url('../img/page-title-bg.jpg');
+  background-size: cover;
+  background-position: center center;
+  width: 100%;
+  height: 500px;
+  background-position: center center;
+}
+
+.container {
+  max-width: 1280px;
+  padding: 20px 10px;
+  margin: 0 auto;
+}
+
+.team{
+    width: 100%;
+     height: 400px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   gap: 20px;
+}
+.team h1{
+       font-size: 50px;
+  font-family: "Dosis", sans-serif;
+    color: white;
+    font-weight: 700;
+    word-spacing: 10px;
+    line-height: 1.5;
+}
+.home ul{
+    display: flex;
+    align-items:center;
+    justify-content: center;
+   list-style: none;
+   font-size: 25px;
+   font-family: "catamaran";
+   font-weight: 700;
+   color: whitesmoke;
+   position: relative;
+   gap:20px;
+}
+.home-dot{
+
+    position: absolute;
+    top: -29px;
+    left: 70px;
+    font-size: 50px;
+}
+
+.form-bg {
+  background-image: url('../img/dot-bg.png');
+  background-size: cover;
+  background-position: center center;
+  width: 100%;
+  height: 800px;
+  background-position: center center;
+
+}
+
+.content {
+  text-align: center;
+  padding-top: 50px;
+}
+
+.content h4 {
+  color: orange;
+  font-size: 20px;
+  padding-bottom: 10px;
+}
+
+.content h3 {
+  font-size: 28px;
+  padding-bottom: 50px;
+}
+
+.form-parent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  gap: 20px;
+}
+
+.form-group input {
+  width: 350px;
+  padding: 10px 10px;
+  background-color: whitesmoke;
+  border: 2px solid whitesmoke;
+  border-radius: 8px;
+  border-left: 5px solid blue;
+}
+
+.form-group textarea {
+  margin-top: 30px;
+  width: 690px;
+  padding: 10px 0px;
+  resize: none;
+  border-left: 4px solid blue;
+  border-radius: 8px;
+}
+
+.butn {
+  margin-left: 100px;
+}
+
+.form-group button {
+  margin: 20px 0px 0px 100px;
+  background-color: blueviolet;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 8px;
+
+
+}
+
+.form-group button:hover {
+  background-color: blue;
+}
+
+.haeding {
+  text-align: center;
+}
+.haeding h4{
+  color: orange;
+}
+
+.contact-content {
+  box-shadow: 2px 2px 10px #ddd;
+  color: black;
+  padding: 10px 10px;
+  width: 33.33%;
+  border-top: 2px solid blue;
+  border-radius: 10px;
+}
+
+.box-contact {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 30px;
+  padding: 80px 10px;
+
+}
+.text-contact{
+  text-align: center;
+}
+
+.text-contact h3 {
+  text-align: center;
+  padding: 20px;
+  font-size: 25px;
+}
+
+.text-contact p {
+  padding: 10px 10px;
+  font-size: 18px;
+  line-height: 28px;
+}
+
+div a {
+  /* color: black; */
+  text-decoration: none;
+padding: 0px 20px;
+
+
+}
+div a:hover{
+  color: #5511A8;
+}
+iframe{
+  width: 100%;
+  height: 600px;
+}
+
+
+/* --- Responsive Design --- */
+
+/* Tablet (max-width: 992px) */
+@media (max-width: 992px) {
+  .team h1 {
+    font-size: 40px;
+    text-align: center;
+  }
+
+  .home ul {
+    font-size: 20px;
+    gap: 15px;
+    flex-wrap: wrap;
+  }
+
+  .form-parent {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .form-group input {
+    width: 100%; /* full width */
+  }
+
+  .form-group textarea {
+    width: 100%;
+  }
+
+  .form-group button {
+    margin: 20px auto 0;
+    display: block;
+  }
+
+  .contact-content {
+    width: 48%; /* 2 columns */
+  }
+
+  .box-contact {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  iframe {
+    height: 450px;
+  }
+}
+
+/* Mobile (max-width: 768px) */
+@media (max-width: 768px) {
+  .team h1 {
+    font-size: 30px;
+    line-height: 1.2;
+  }
+
+  .home ul {
+    font-size: 18px;
+    gap: 10px;
+  }
+
+  .form-parent {
+    flex-direction: column;
+    margin-top: 30px;
+  }
+
+  .form-group input,
+  .form-group textarea {
+    width: 100%; /* take full width */
+  }
+
+  .contact-content {
+    width: 100%; /* 1 column */
+    margin-bottom: 20px;
+  }
+
+  .box-contact {
+    flex-direction: column;
+    padding: 40px 10px;
+    gap: 20px;
+  }
+
+  iframe {
+    height: 350px;
+  }
+}
+
+/* Small Mobile (max-width: 480px) */
+@media (max-width: 480px) {
+  .team h1 {
+    font-size: 22px;
+    word-spacing: 5px;
+  }
+
+  .home ul {
+    font-size: 16px;
+    gap: 8px;
+  }
+
+  .content h3 {
+    font-size: 22px;
+  }
+
+  .text-contact h3 {
+    font-size: 20px;
+  }
+
+  .text-contact p {
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  iframe {
+    height: 250px;
+  }
+}

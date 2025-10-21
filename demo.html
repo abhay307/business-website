@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Switch Menu Example</title>
+  <style>
+    .menu {
+      display: none; /* Hide all menus by default */
+      padding: 15px;
+      background: #f0f0f0;
+      margin-top: 10px;
+      border-radius: 5px;
+    }
+    .menu.active {
+      display: block; /* Show only the active menu */
+    }
+    .btn {
+      padding: 10px 20px;
+      margin: 5px;
+      cursor: pointer;
+      background: #007bff;
+      color: white;
+      border: none;
+      border-radius: 4px;
+    }
+    .btn:hover {
+      background: #0056b3;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Buttons to switch -->
+  <button class="btn" onclick="switchMenu('menu1')">Menu 1</button>
+  <button class="btn" onclick="switchMenu('menu2')">Menu 2</button>
+  <button class="btn" onclick="switchMenu('menu3')">Menu 3</button>
+
+  <!-- Menus -->
+  <div id="menu1" class="menu active">
+    <h3>Menu 1 Content</h3>
+    <p>This is the first menu.</p>
+  </div>
+  <div id="menu2" class="menu">
+    <h3>Menu 2 Content</h3>
+    <p>This is the second menu.</p>
+  </div>
+  <div id="menu3" class="menu">
+    <h3>Menu 3 Content</h3>
+    <p>This is the third menu.</p>
+  </div>
+
+  <script>
+    function switchMenu(menuId) {
+      // Hide all menus
+      document.querySelectorAll('.menu').forEach(menu => {
+        menu.classList.remove('active');
+      });
+      // Show the selected menu
+      document.getElementById(menuId).classList.add('active');
+    }
+  </script>
+
+</body>
+</html>
