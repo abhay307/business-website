@@ -1,84 +1,24 @@
-// var tl = gsap.timeline();
-
-// var portTypChild = document.querySelector(".portTypChild")
-
-// function portani(){
-   
-// gsap.to('.portChildHide',{
-//     position : 'absolute',
-//     bottom : 15,
-//     duration : 0.5,
-// })
-
-// gsap.from('.portChildHideLbl p', {
-//     x : -50,
-//     duration : 0.5,
-//     delay : 0.5,
-//     opacity : 0
-// })
-
-// gsap.from('.portChildHideLbl h5', {
-//     x : 50,
-//     duration : 0.5,
-//     delay : 0.5,
-//     opacity : 0
-// })
-
-// gsap.from('.portChildHidIcon', {
-//     x : 50,
-//     duration : 0.5,
-//     delay : 0.5,
-//     opacity : 0
-// })
-    
-// }
- 
-
-// // portTypChild.addEventListener("mouseenter",portani);
 
 
 
 
+let btns = document.querySelectorAll(".button button")
 
+let items = document.querySelectorAll(".portTypChild")
 
-// let portTypChild = document.querySelectorAll('.portTypChild')
-// let portChildHide = document.querySelector('.portChildHide')
-// let portTyps = document.querySelector('.portTyps')
+btns.forEach(btn => {
+    btn.addEventListener('click',()=>{
+        let type = btn.getAttribute('data-type');
 
-// let b = [...portTypChild]
-// // b.map((elem)=>{
-// //     elem.addEventListener('mouseenter',function(e){
-// //         portChildHide.style.display = 'flex'
-// //         portani()
-// //     })
-// //     elem.addEventListener('mouseleave',function(e){
-// //         portChildHide.style.display = 'none'
-// //         portani()
-// //     })
-// // })
+        items.forEach(img => img.classList.add('hide'));
+        
+            if (type === "all" ){
+               items.forEach(img =>img.classList.remove('hide'));
 
-// b.map((elem)=>{
-//     elem.addEventListener('mouseenter',function(e){
-//         portChildHide.style.display = 'flex'
-//         portani()
-// })
-// })
+            }else{
+               let selected =Array.from(items).filter(img => img.classList.contains(type));
 
-// portTyps.addEventListener('click',function(e){
-//     let gg = e.target.parentElement
-//    if(gg.className = 'portTypChild'){
-//      portChildHide.style.display = 'flex'
-//         portani()
-//    }
-// })
-
-let branding = document.querySelector("#branding");
-let brandingimg = document.querySelector(".brandingimg");
-let appbtn = document.querySelector("#appbtn");
-let webbtn = document.querySelector("#webbtn");
-let picbtn = document.querySelector("#picbtn");
-
-
-branding.addEventListener("click",(e)=>{
-    brandingimg.style.display ="none"
-})
+            selected.slice(0, 2).forEach(img => img.classList.remove('hide'));
+            }
+        });
+    });

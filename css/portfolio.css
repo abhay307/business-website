@@ -115,7 +115,7 @@ body {
 /* portfolio section  ended [HEADING] */
 /* portfolio section  starts [portnav] */
 
-#portList {
+.button {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -124,9 +124,10 @@ body {
     margin: 50px 0;
 }
 
-#portList li a {
+.button button {
     text-decoration: none;
     color: black;
+    background-color: #fff;
     font-family: "Catamaran", sans-serif;
     font-weight: 700;
     font-size: 19px;
@@ -134,18 +135,19 @@ body {
     border-radius: 5px;
     box-shadow: 0 0 10px gainsboro;
     transition: 0.2s ease;
+    border: none;
 }
 
-#portList li a:hover {
+.button button:hover {
     background-color: var(--primaryBlue);
     color: white;
 }
 
 /* portfolio section  ended [portnav] */
 /* portfolio Types section  starts [porttyps] */
-.portTyps {
+.portTyp {
     display: flex;
-    justify-content: space-between;
+    /* justify-content: space-between; */
     align-items: center;
     flex-wrap: wrap;
     gap: 20px;
@@ -283,6 +285,9 @@ body {
     animation: slidleft 0.7s 1 ease;
 }
 
+.hide{
+    display: none;
+}
 
 /* portfolio Types section  ended [porttyps] */
 
